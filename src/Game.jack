@@ -1,0 +1,14 @@
+class Game{
+    field int score; 
+    field Ball ball;
+    field Map map;
+
+    constructor Game new(){
+        let score = 0;
+        let ball = Ball.new();
+        let map = Map.new();
+        return this;
+    }
+
+    
+}
